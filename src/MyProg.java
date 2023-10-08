@@ -1,7 +1,16 @@
 import java.lang.reflect.*;
 
+/**
+ * Class Layout Tool Program
+ * @author Brian Karimi, Katie Killian, Nicole Vadillo
+ */
 public class MyProg
 {
+    /**
+     * Function main begins with program execution.
+     * @param args command-line arguments.
+     * @throws ClassNotFoundException
+     */
     public static void main(String[] args) throws ClassNotFoundException
     {
         Class c = Class.forName("NewClass");
